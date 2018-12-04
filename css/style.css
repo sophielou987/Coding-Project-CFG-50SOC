@@ -1,3 +1,5 @@
+/* Index page */
+
 nav {
   text-align: center;
   font-family: helvetica,sans-serif;
@@ -75,4 +77,11 @@ div #breadimages {
   background-color: grey;
   color: white;
   transform: rotateY(180deg);
+}
+
+/* About page */
+
+.about_picture {
+  width: 200px;
+  height:200px;
 }
