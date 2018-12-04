@@ -1,0 +1,49 @@
+/* About page */
+
+body {
+  font-family: "Courier New", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.9px;
+}
+
+
+
+.about_picture {
+  width: 325px;
+  height:325px;
+  }
+
+.center {
+  text-align: center;
+  font-style:italic;
+  font-size: 60pt;
+  font-family: "Mistral";
+  margin: 0px
+}
+
+.intro_text {
+  margin: 0px
+}
+
+.column {
+  width: 33%;
+  float: left;
+  text-align: center;
+}
+
+.column h1 {
+  text-align: center;
+}
+
+.left_column {
+
+}
+
+.middle_column {
+
+}
+
+.right_column {
+
+}
