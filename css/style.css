@@ -17,10 +17,14 @@
   margin-right: 30px;
   color: white;
 }
-.dropdown li a{
+.dropdown-menu {
   background-color: #3a4660;
 }
-
+.jumbotron {
+  background-image: url(../pictures/flour-background.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
 
 .navbar-brand>img {
   padding: 0px 15px;
@@ -33,13 +37,14 @@
 h1 {
   text-align: center;
   font-family: verdana;
-  font-size: 13 px;
+  font-size: 20 px;
   letter-spacing: 2px;
+  font-style: normal;
 }
 
 h2 {
   font-family: verdana;
-  font-size: 13px;
+  font-size: 20px;
   text-align: center;
   font-weight: 300;
 }
@@ -50,7 +55,24 @@ h2 {
   margin-right: auto;
   width:20%;
 }
+.icon-bar img {
+  height: 40px;
+  padding-top:13px;
+}
 
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  padding: 15px;
+  z-index:100;
+  background:rgba(255,255,255,0.5);
+}
+.icon-bar ul {
+  list-style: none;
+  margin:0;
+  padding: 10px;
+
+}
 
 body {
   padding-top: 80px;
