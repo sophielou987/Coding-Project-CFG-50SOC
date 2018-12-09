@@ -12,7 +12,6 @@
   background-color: #3a4660;
 }
 
-
 .navbar-bottom {
   min-height: 55px;
   text-align: left;
@@ -26,14 +25,24 @@
   opacity: 0.5;
   color: white;
 }
-
 .nav.navbar-nav li a {
   margin-left: 30px;
   margin-right: 30px;
   color: white;
 }
 
+.bottom {
+font-size:10px;
 
+}
+.title-bottom {
+font-size:15px;
+font-weight:bold;
+}
+.navbar-bottom li{
+  padding-left:30px;
+  padding-right:30px;
+}
 .dropdown-menu {
   background-color: #3a4660;
 }
