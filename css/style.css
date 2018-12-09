@@ -131,9 +131,21 @@ div #breadimages {
 
 /* Style the back side */
 .flip-box-back {
-  background-color: grey;
-  color: white;
+  background-image: url(../pictures/flour_chopping_board.jpg);
+  background-size: cover;
+  color:black;
+  font-family: 'Cookie', cursive;
+  font-size: 34px;
+  font-weight: 350;
   transform: rotateY(180deg);
+  opacity: 0.7;
+}
+
+div #bread-text {
+  position: relative;
+  top: 70%;
+  left: 38%;
+  transform: translate(-50%, -50%);
 }
 
 /* About page */
