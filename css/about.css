@@ -21,9 +21,18 @@
   color: white;
 }
 
+.dropdown-menu {
+  background-color: #3a4660;
+}
+
+h2.center {
+  font-style: verdana;
+  font-size: 30px;
+  color: black;
+}
 body {
 
-  padding-top: 150px;
+  padding-top: 100px;
   font-family: helvetica;
   font-size: 12px;
   font-weight: 700;
