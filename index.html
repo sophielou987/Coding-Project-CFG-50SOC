@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet">
  </head>
 
  <body>
@@ -53,25 +54,23 @@
  </div>
 </div>
 
- <div class='text'>
+
     <div class="container">
       <div class="row">
-        <h2>intro text to our bakery</p>
+        <h2>intro text to our bakery</h2>
       </div>
-    </div>
- </div>
 
- <div class="text-center">
      <div class="row" id="breadimages">
          <div class="col-sm-4">
        <div class="flip-box">
          <div class="flip-box-inner">
             <div class="flip-box-front">
-          <img class="img-responsive" src='pictures/einkorn_sourdough.jpg'>
+          <img class="img-responsive" class="img-rounded" src='pictures/einkorn_sourdough.jpg'>
        </div>
         <div class="flip-box-back">
-         <h2>Einkorn Sourdough</h2>
-         <p>pretty bread</p>
+          <div id="bread-text">
+         <p>Einkorn Sourdough</p>
+       </div>
        </div>
        </div>
      </div>
@@ -80,11 +79,12 @@
      <div class="flip-box">
        <div class="flip-box-inner">
           <div class="flip-box-front">
-         <img class="img-responsive" src='pictures/seeded_sourdough.jpg'>
+         <img class="img-responsive" class="img-rounded" src='pictures/seeded_sourdough.jpg'>
         </div>
        <div class="flip-box-back">
-         <h2>Seeded Sourdough</h2>
-         <p>Delicious seeded bread</p>
+         <div id="bread-text">
+         <p>Seeded Sourdough</p>
+       </div>
        </div>
          </div>
        </div>
@@ -93,17 +93,78 @@
          <div class="flip-box">
            <div class="flip-box-inner">
         <div class="flip-box-front">
-          <img class="img-responsive" src='pictures/sourdough_baguette.jpg'>
+          <img class="img-responsive" class="img-rounded" src='pictures/sourdough_baguette.jpg'>
        </div>
         <div class="flip-box-back">
-         <h2>Sourdough baguette</h2>
-         <p>yummy baguette</p>
+          <div id="bread-text">
+         <p>Sourdough Baguette</p>
+          </div>
        </div>
          </div>
        </div>
          </div>
   </div>
- </div>
+  <div class="row" id="breadimages">
+      <div class="col-sm-4">
+    <div class="flip-box">
+      <div class="flip-box-inner">
+         <div class="flip-box-front">
+       <img class="img-responsive" class="img-rounded" src='pictures/multigrain_sourdough.jpg'>
+    </div>
+     <div class="flip-box-back">
+       <div id="bread-text">
+      <p>Multigrain Sourdough</p>
+    </div>
+    </div>
+    </div>
+  </div>
+  </div>
+ <div class="col-sm-4">
+  <div class="flip-box">
+    <div class="flip-box-inner">
+       <div class="flip-box-front">
+      <img class="img-responsive" class="img-rounded" src='pictures/potato_rosemary_sourdough.jpg'>
+     </div>
+    <div class="flip-box-back">
+      <div id="bread-text">
+      <p>Rosemary Sourdough</p>
+    </div>
+    </div>
+      </div>
+    </div>
+      </div>
+ <div class="col-sm-4">
+      <div class="flip-box">
+        <div class="flip-box-inner">
+     <div class="flip-box-front">
+       <img class="img-responsive" class="img-rounded" src='pictures/whole.jpg'>
+    </div>
+     <div class="flip-box-back">
+       <div id="bread-text">
+      <p>Wheat Sourdough</p>
+       </div>
+    </div>
+      </div>
+    </div>
+      </div>
+</div>
 
+ </div>
+ <nav class= "navbar-bottom navbar-form nav-bottom-contact">
+   <div class="container-fluid">
+   <div class="navbar-header">
+     <a class="navbar-brand" href="#home">
+       <img style="height: 140%;" src="pictures/logo.jpg" alt="logo">
+     </a>
+   </div>
+     <ul class="nav navbar-nav">
+       <li><p>Address</p></li>
+       <li><a href="pages/about.html">about</a></li>
+       <li><a href="#contact">contact</a></li>
+       <li><a href="#press">press</a></li>
+     </ul>
+
+ </div>
+ </nav>
  </body>
 </html>
