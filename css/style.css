@@ -160,11 +160,12 @@ div #breadimages {
   opacity: 0.7;
 }
 
-div #bread-text {
+p.bread-text {
   position: relative;
   top: 70%;
-  left: 38%;
+  left: 18%;
   transform: translate(-50%, -50%);
+  font-size: 30px
 }
 
 /* About page */
