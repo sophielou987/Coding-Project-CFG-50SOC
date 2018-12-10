@@ -1,34 +1,12 @@
 /* About page */
 
-.navbar-default {
-  min-height: 55px;
-  text-align: left;
-  font-family: helvetica;
-  font-size: 20px;
-  font-weight: 300;
-  letter-spacing: 1px;
-  padding-left: 30px;
-  padding-right: 30px;
-  background-color: #3a4660;
-}
-.navbar-brand>img {
-  padding: 0px 15px;
-}
-
-.nav.navbar-nav li a {
-  margin-left: 30px;
-  margin-right: 30px;
-  color: white;
-}
-
 body {
-
-  padding-top: 150px;
-  font-family: helvetica;
-  font-size: 12px;
-  font-weight: 700;
-  letter-spacing: 0.9px;
+  font-family: "Helvetica", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.9px;
 }
+
 
 
 .about_picture {
@@ -38,8 +16,9 @@ body {
 
 .center {
   text-align: center;
-  font-size: 50pt;
-  font-family: helvetica;
+  font-style:italic;
+  font-size: 60pt;
+  font-family: "Mistral";
   margin: 0px
 }
 
