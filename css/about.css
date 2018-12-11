@@ -35,11 +35,11 @@ h2.center {
 
 body {
   padding-top: 100px;
-  font-family: helvetica;
+  font-family: verdana;
   font-size: 12px;
-  font-weight: 700;
+  font-weight: 450;
   letter-spacing: 0.9px;
-  background: url('../pictures/about_pictures/powder1.jpg') no-repeat center center fixed;
+  background: url('../pictures/about_pictures/snow11.jpg') no-repeat center center fixed;
   /*background-color: #fefefe;*/
   background-size: cover;
   color:black;
@@ -57,7 +57,7 @@ body {
 .center {
   text-align: center;
   font-size: 60pt;
-  font-family: "helvetica";
+  font-family: "verdana";
   margin: 0px
 }
 
