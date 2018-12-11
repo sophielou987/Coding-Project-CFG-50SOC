@@ -26,20 +26,28 @@
 }
 
 h2.center {
-  font-style: verdana;
-  font-size: 30px;
+  font-style: helvetica;
+  font-size: 36px;
   color: black;
+  padding: 0;
+  margin: -15px;
 }
-body {
 
+body {
   padding-top: 100px;
   font-family: helvetica;
   font-size: 12px;
   font-weight: 700;
   letter-spacing: 0.9px;
+  background: url('../pictures/about_pictures/snow1.jpg') no-repeat center center fixed;
+  /*background-color: #fefefe;*/
+  background-size: cover;
+  color:black;
 }
 
-
+.column img {
+  border: 3px solid #3a4660;
+}
 
 .about_picture {
   width: 325px;
@@ -48,14 +56,13 @@ body {
 
 .center {
   text-align: center;
-  font-style:italic;
   font-size: 60pt;
-  font-family: "Mistral";
+  font-family: "helvetica";
   margin: 0px
 }
 
 .intro_text {
-  margin: 0px
+  margin: 0 70px 0 70px;
 }
 
 .column {
@@ -66,6 +73,11 @@ body {
 
 .column h1 {
   text-align: center;
+}
+
+.column p {
+  margin: 20px 60px 20px 60px;
+  text-align: justify;
 }
 
 .left_column {
