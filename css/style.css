@@ -107,6 +107,11 @@ p {
 
 }
 
+@media screen and (max-width: 992px) {
+.jumbotron {
+      padding-top: 200px;
+  }
+}
 body {
   padding-top: 100px;
   font-family: verdana;
